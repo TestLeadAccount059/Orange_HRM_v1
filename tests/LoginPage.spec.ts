@@ -17,7 +17,7 @@ await page.goto("http://127.0.0.1/orangehrm-2.5.0.2/");
 
 
 //remaining test cases//Verify the Login Page
-test('Verify ADDEMP Login Page',async()=>{
+test('Verify Launching Login Page',async()=>{
 //get the title of the web page
 let Title_text:string=await page.title();
 
